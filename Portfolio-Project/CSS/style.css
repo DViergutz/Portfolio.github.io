@@ -1,0 +1,133 @@
+* {
+  margin: none;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 16px;
+  
+}
+hr {
+  margin-top: -20px;
+}
+
+h1 {
+  font-size: 3rem;
+  /* background-color: #ffffff; */
+  margin: 0 auto;
+  text-align: center;
+    /* margin-bottom: 0px; */
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+header {
+  background-image: url("/Ressources/imgages/pexels-pixabay-235985.jpg");
+  background-color: #7b3f0b;
+  position: sticky;
+  top: -60px;   /*to hide name when scrolling */
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+nav {
+    /* background-color: #8a6e6e; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav-list {
+  /* background-color: #ccc; */
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list li {
+  background-color: #fb9c9c;
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 25%;
+  margin: 1% 2%;
+  padding: 3%;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* .nav-list li a::before {
+    color: black;
+} */
+
+.nav-list li a:hover {
+  color: rgba(255, 94, 0, 0.957);
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
+.nav-list li a:visited {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+   /* display: grid; */
+  background-image: url("/Ressources/imgages/pexels-pixabay-235985.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  
+}
+
+h2 {
+}
+main {
+  /* background-color: lightblue; */
+  width: 70%;
+  margin: 0 auto;
+    /* display: flex; */
+}
+
+/* contact.html */
+
+.contactinfo {
+  margin: 0 auto;
+  text-align: center;
+  /* justify-content: center; */
+}
+.contactinfo h2 {
+  font-size: 2rem;
+}
+.contactinfo table {
+  background-color: #37b98b;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.contactinfo td {
+    padding: 5px;
+}
+
+#backToMain {
+    background-color: #8d2727;
+  display: flex;
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 2px solid black; */
+  justify-content: center;
+}
+
+
